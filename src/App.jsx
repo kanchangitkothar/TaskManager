@@ -1,7 +1,7 @@
 import Navbar from './Navbar'
 import Form from './Form'
 import TaskProvider from './TaskProvider'
-import DisplayNotes from './DisplayNotes'
+import DisplayTask from './DisplayTask'
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <TaskProvider>
         <div className='mainContainer'>
           <Form />
-          <DisplayNotes />
+          <DisplayTask />
         </div>
       </TaskProvider>
     </>

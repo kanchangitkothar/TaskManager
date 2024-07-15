@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { TaskContextApi } from './TaskProvider';
 
-const DisplayNotes = () => {
+const DisplayTask = () => {
 
     let { selective, handleCategory, task, handleDelete, handleUpdate } = useContext(TaskContextApi);
     console.log(task);
@@ -53,4 +53,4 @@ const DisplayNotes = () => {
     )
 }
 
-export default DisplayNotes
+export default DisplayTask
