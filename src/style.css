@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 2, 87);
+    color: white;
+    align-items: center;
+}
+
+nav div h1 {
+    color: white;
+    font-size: 20px;
+}
+
+nav img {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainFormBlock {
+    background-color: rgb(253, 181, 193);
+    width: 50%;
+    height: 620px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.form-content {
+    padding: 10px;
+    color: rgb(15, 2, 87);
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.form-content label {
+    display: block;
+    font-size: 30px;
+}
+
+.form-content input {
+    width: 95%;
+    border: none;
+    height: 30px;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(15, 2, 87);
+    color: rgb(15, 2, 87);
+}
+
+.form-content textarea {
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 16px;
+    color: rgb(15, 2, 87);
+}
+
+.form-content select {
+    height: 45px;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: rgb(15, 2, 87);
+}
+
+.form-btn button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(22, 5, 116);
+    color: white;
+}
+
+.form-btn button:active {
+    background-color: white;
+    color: rgb(22, 5, 116);
+}
+
+.form-btn {
+    padding: 10px;
+    color: rgb(15, 2, 87);
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.displaySection {
+    background-color: rgb(253, 181, 193);
+    width: 50%;
+    height: 620px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.selectDisplayBlock {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.selectDisplayBlock input {
+    margin-left: 25px;
+}
+
+.output {
+    border: 2px solid rgb(15, 2, 87);
+    width: fit-content;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(22, 5, 116);
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn button {
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(22, 5, 116);
+    font-weight: 600;
+    padding: 3px;
+}
